@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_marginTop="70dp"
+    android:padding="8dp"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@drawable/loadinf_shape"
+        android:id="@+id/thumbnail"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book1"
+            android:text="intex"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            />
+
+      <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+          android:id="@+id/book2"
+          android:text="type"
+          android:textStyle="bold"
+          android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book3"
+            android:text="id"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book4"
+            android:text="score"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book5"
+            android:text="source"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book6"
+            android:text="category"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book7"
+            android:text="titel"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book8"
+            android:text="author"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book9"
+            android:text="desc"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book10"
+            android:text="FlNm"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book11"
+            android:text="foundUrl"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book12"
+            android:text="imgFlPth"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book13"
+            android:text="ixDate"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book14"
+            android:text="language"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book15"
+            android:text="pgcnt"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book16"
+            android:text="sz"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book17"
+            android:text="url"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book18"
+            android:text="year"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
