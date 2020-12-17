@@ -39,24 +39,18 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.intex.setText(mDAta.get(position).getIndex());
-        holder.type.setText(mDAta.get(position).getType());
-       holder.id.setText(mDAta.get(position).getId());
-       holder.score.setText(mDAta.get(position).getScore());
-       holder.source.setText(mDAta.get(position).getSource());
-       holder.category.setText(mDAta.get(position).getCategory());
-       holder.titel.setText(mDAta.get(position).getTitle());
+        holder.category.setText(mDAta.get(position).getCategory());
+        holder.titel.setText(mDAta.get(position).getTitel());
        holder.author.setText(mDAta.get(position).getAuthor());
-        holder.desc.setText(mDAta.get(position).getDesc());
-        holder.flNm.setText(mDAta.get(position).getFlNm());
-        holder.foundUrl.setText(mDAta.get(position).getFoundUrl());
-        holder.imgFlPth.setText(mDAta.get(position).getImgFlPth());
-        holder.ixDate.setText(mDAta.get(position).getIxDate());
-        holder.language.setText(mDAta.get(position).getLanguage());
-        holder.pgCnt.setText(mDAta.get(position).getPgCnt());
-        holder.sz.setText(mDAta.get(position).getSz());
-        holder.url.setText(mDAta.get(position).getUrl());
-        holder.year.setText(mDAta.get(position).getYr());
+       holder.desc.setText(mDAta.get(position).getDesc());
+       holder.FlNm.setText(mDAta.get(position).getFlNm());
+       //holder.ixdate.setText(mDAta.get(position).getIxDate());
+       holder.language.setText(mDAta.get(position).getLanguagr());
+       //holder.pgcnt.setText(mDAta.get(position).getPgcnt());
+        //holder.sz.setText(mDAta.get(position).getSz());
+       // holder.yr.setText(mDAta.get(position).getYr());
+        holder.rtng.setText(mDAta.get(position).getRtng());
+        holder.pervwOK.setText(mDAta.get(position).getPrevwOk());
 
        // Glide.with(mContext).load(mDAta.get(position).getImage_url()).apply(position).into(holder.thumbnail);
 
@@ -73,24 +67,19 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView intex;
-        TextView type;
-        TextView id;
-        TextView score;
-        TextView source;
         TextView category;
         TextView titel;
         TextView author;
         TextView desc;
-        TextView flNm;
-        TextView foundUrl;
-        TextView imgFlPth;
-        TextView ixDate;
+        TextView FlNm;
+        TextView ixdate;
         TextView language;
-        TextView pgCnt;
+        TextView pgcnt;
         TextView sz;
-        TextView url;
-        TextView year;
+        TextView yr;
+        TextView rtng;
+        TextView pervwOK;
+
         ImageView thumbnail;
 
 
@@ -99,24 +88,18 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         public MyViewHolder(View itemView) {
             super(itemView);
 
-            intex=itemView.findViewById(R.id.book1);
-            type=itemView.findViewById(R.id.book2);
-            id=itemView.findViewById(R.id.book3);
-            score=itemView.findViewById(R.id.book4);
-            source=itemView.findViewById(R.id.book5);
-            category=itemView.findViewById(R.id.book6);
-            titel=itemView.findViewById(R.id.book7);
-            author=itemView.findViewById(R.id.book8);
-            desc=itemView.findViewById(R.id.book9);
-            flNm=itemView.findViewById(R.id.book10);
-            foundUrl=itemView.findViewById(R.id.book11);
-            imgFlPth=itemView.findViewById(R.id.book12);
-            ixDate=itemView.findViewById(R.id.book13);
-            language=itemView.findViewById(R.id.book14);
-            pgCnt=itemView.findViewById(R.id.book15);
-            sz=itemView.findViewById(R.id.book16);
-            url=itemView.findViewById(R.id.book17);
-            year=itemView.findViewById(R.id.book18);
+            category=itemView.findViewById(R.id.book1);
+            titel=itemView.findViewById(R.id.book2);
+            author=itemView.findViewById(R.id.book3);
+            desc=itemView.findViewById(R.id.book4);
+            FlNm=itemView.findViewById(R.id.book5);
+            ixdate=itemView.findViewById(R.id.book6);
+            language=itemView.findViewById(R.id.book7);
+            pgcnt=itemView.findViewById(R.id.book8);
+            sz=itemView.findViewById(R.id.book9);
+            yr=itemView.findViewById(R.id.book10);
+            rtng=itemView.findViewById(R.id.book11);
+            pervwOK=itemView.findViewById(R.id.book12);
 
 
 
