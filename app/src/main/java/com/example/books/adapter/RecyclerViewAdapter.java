@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.example.books.model.book;
 import com.example.books.R;
 
@@ -18,10 +19,12 @@ import java.util.List;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>{
     private Context mContext;
     private List<book> mDAta;
+    RequestOptions options;
 
     public RecyclerViewAdapter(Context mContext, List<book> mDAta) {
         this.mContext = mContext;
         this.mDAta = mDAta;
+        options=new RequestOptions().centerCrop().placeholder(R.drawable.loadinf_shape).error(R.drawable.loadinf_shape);
     }
 
     @Override
@@ -54,6 +57,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.sz.setText(mDAta.get(position).getSz());
         holder.url.setText(mDAta.get(position).getUrl());
         holder.year.setText(mDAta.get(position).getYr());
+
+       // Glide.with(mContext).load(mDAta.get(position).getImage_url()).apply(position).into(holder.thumbnail);
 
 
 
